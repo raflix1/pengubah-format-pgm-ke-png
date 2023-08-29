@@ -2,8 +2,8 @@ import cv2
 import os
 
 # Folder dengan file PGM
-folder_input = 'D:\Skripsi Rafli\Dataset\Abnormal'  # Ganti dengan direktori yang sesuai
-folder_output = 'D:\Skripsi Rafli\Dataset\Abnormal PNG (coba baru)'  # Ganti dengan direktori tujuan
+folder_input = 'your directory path'  # Ganti dengan direktori yang sesuai
+folder_output = 'your new directory path'  # Ganti dengan direktori tujuan
 
 # Daftar semua file dalam folder input
 daftar_file = os.listdir(folder_input)
